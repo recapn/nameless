@@ -1,0 +1,76 @@
+/* NÃO ESCREVER UM ESTILO PARA UMA TAG. SEMPRE FAZER ISSO PARA UMA CLASSE. A CLASSE PODE TER QQR NOME E COMEÇA COM .*/
+
+.sh-image {
+    max-width: 100%;
+    width: 322px;
+    height: 429px;
+    object-fit: cover;
+    object-position: top left;
+}
+
+.ppt-image {
+    max-width: 100%;
+    width: 400px;
+    height: 300px;
+    object-fit: fill;
+    object-position: top center;
+    padding-right: 1em;
+}
+
+.prot-image {
+    max-width: 100%;
+    width: 290px;
+    height: 460px;
+    object-fit: cover;
+    object-position: top left;
+    padding-right: 1em;
+}
+
+.protc-image {
+    max-width: 100%;
+    width: 290px;
+    height: 460px;
+    object-fit: cover;
+    object-position: top center;
+    padding-right: 1em;
+}
+
+.city-image {
+    max-width: 100%;
+    width: 400px;
+    height: 300px;
+    object-fit: cover;
+    object-position: top center;
+    padding-right: 1em;
+}
+
+.wm-brasoes {
+    max-width: 100%;
+    width: 216x;
+    height: 384px;
+    object-fit: fill;
+    object-position: top center;
+}
+
+.wm-image {
+    max-width: 100%;
+    width: 273px;
+    height: 460px;
+    object-fit: cover;
+    object-position: top right;
+    padding-right: 1em;
+}
+
+.peq-image {
+    max-width: 100%;
+    width: 300px;
+    height: 300px;
+    object-fit: fill;
+    object-position: cover;
+}
+
+.my-border {
+    border: 2px solid darkblue;
+    margin-left: 10px;
+    margin-right: 10 px;
+}

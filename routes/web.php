@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\SiteController;
 
 /*
 |--------------------------------------------------------------------------
@@ -13,6 +14,6 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', [SiteController::class, 'home'])->name('home');
+// Route::get('/nome-que-aparece-na-url', [SiteController::class, 'nome-da-funcao-que-vc-escreve-no-controller'])->name('nome interno para chamar no php route('essenome'));
+Route::get('/mapas', [SiteController::class, 'mapas'])->name('mapas');
