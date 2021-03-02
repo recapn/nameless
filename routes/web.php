@@ -17,3 +17,6 @@ use App\Http\Controllers\SiteController;
 Route::get('/', [SiteController::class, 'home'])->name('home');
 // Route::get('/nome-que-aparece-na-url', [SiteController::class, 'nome-da-funcao-que-vc-escreve-no-controller'])->name('nome interno para chamar no php route('essenome'));
 Route::get('/mapas', [SiteController::class, 'mapas'])->name('mapas');
+Route::get('/protetorados', [SiteController::class, 'protetorados'])->name('protetorados');
+Route::get('/grupos', [SiteController::class, 'grupos'])->name('grupos');
+Route::get('/historia', [SiteController::class, 'historia'])->name('historia');

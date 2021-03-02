@@ -14,4 +14,16 @@ class SiteController extends Controller
     {
         return view('contents.mapas');
     }
+    public function protetorados()
+    {
+        return view('contents.protetorados');
+    }
+    public function grupos()
+    {
+        return view('contents.grupos');
+    }
+    public function historia()
+    {
+        return view('contents.historia');
+    }
 }
